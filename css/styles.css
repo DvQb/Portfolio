@@ -1,0 +1,253 @@
+* {
+    padding: 0;
+    margin: 0 ;
+    box-sizing: border-box;
+
+}
+
+
+body {
+    background-color: #1E1E1E;
+    color: #f5f5f5;
+    
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 80px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+}
+
+h2{
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    gap: 40%;
+    padding: 20px 20px 20px 65px  ;
+    
+}
+
+.logo {
+    margin-left: 80px;
+    padding: 10px 10px 10px 10px;
+    width: 100px;
+    height: 100px;
+}
+
+.main-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+    font-weight: 500;
+    font-size: 18px;
+    
+    
+}
+
+
+nav ul li{
+   
+    display: inline-block;
+    width: 120px;
+    height: 30px;
+    justify-items: center;
+    align-content: center;
+   
+    
+  
+    
+}
+
+
+nav ul li a {
+    color:#f5f5f5;
+    text-decoration: none;
+    display:block;
+   
+}
+
+nav ul li:hover {
+
+    display: inline-block;
+    background-color:#565B75;
+    border-radius: 10px;
+    justify-items: center;
+    align-items: center;
+    
+   
+    
+
+}
+
+
+
+.toggle {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 35px;
+    padding: 35px 150px 20px 10px;
+
+}
+
+.toggle-mode {
+    width: 40px;
+    height: 24px;
+    border-radius: 30px;
+    border: none;
+    background-color: #3Eb6ee;
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 3px;
+    transition: background 0.3s ease;
+    cursor: pointer;
+    
+}
+
+.toggle-circle {
+    width: 18px;
+    height: 18px;
+    background-color: #f5f5f5;
+    border: none;
+    border-radius: 50%;
+    position:absolute;
+    left: 4px;
+    transition: transform 0.3s ease;
+}
+
+.showcase{
+    display: flex;
+    align-items: center;
+    gap: 150px;
+    padding-top: 50px;
+}
+
+#showcase-title{
+    display: inline;
+    width: 800px;
+    height: 700px;
+    padding-top: 100px;
+   
+}
+
+#main-logo {
+    width: 410px;
+    height: 700px;
+}
+
+.showcase-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 35px;
+    gap:50px
+}
+
+.button-1{
+
+    width: 283px;
+    height: 50px;
+    border: none;
+    border-radius: 20px;
+    background-color: #3Eb6ee;
+    color: #f5f5f5;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+
+#active{
+    background-color: #f5f5f5;
+    color: #1E1E1E;
+     
+    display:inline-block;
+    width: 120px;
+    height: 30px;
+    align-content: center;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.icons-container{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-top: 60px;
+    padding-right: 150px;
+    gap:50px
+}
+.icon-linkedin{
+
+    width: 39px;
+    height: 39px;
+}
+
+.icon-git{
+
+    width: 39px;
+    height: 36px;
+}
+.icon-email{
+
+    width: 39px;
+    height: 27px;
+}
+
+
+
+
+
+.light-mode {
+    background-color: #f5f5f5;
+    color:#1E1E1E
+}
+
+.light-mode #active {
+    
+    background-color: #565B75;
+    color: #f5f5f5;
+    display:inline-block;
+    width: 120px;
+    height: 30px;
+    align-content: center;
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+.light-mode a{
+    color:#1E1E1E;
+
+}
+
+.light-mode nav ul li:hover{
+    background-color: #1E1E1E;
+    a {
+        color:#f5f5f5;
+    }
+}
+
+
+.light-mode .toggle{
+    background-color: #f5f5f5
+
+}
+
+.light-mode .toggle-circle{
+    transform: translateX(14px);
+}
