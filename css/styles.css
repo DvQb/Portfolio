@@ -16,6 +16,10 @@ body {
     font-style: normal;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 h1 {
     font-family: "Quicksand", sans-serif;
     font-optical-sizing: auto;
@@ -452,6 +456,24 @@ footer ul li{
 
     margin-top:28px;
 }
+
+
+
+/*PROJECTS STYLES*/
+
+.cards-container{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+.cards-column{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 
 .light-mode #active {
     
